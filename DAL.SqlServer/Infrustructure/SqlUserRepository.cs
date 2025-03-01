@@ -13,12 +13,12 @@ public class SqlUserRepository(string connectionString) : BaseSqlRepository(conn
         var sql = @"
         INSERT INTO Users (Name, Username, Fathername, Email, PasswordHash, Address, 
                            MobilePhone, CardNumber, Note, BirthDay, DateOfEmployment, 
-                           DateOfDismissal, Gender, UserType, CreatedDate, Updatedate, 
+                           DateOfDismissal, Gender, UserType, CreatedDate, UpdatedDate, 
                            DeletedDate, IsDeleted, CreatedBy, UpdatedBy, DeletedBy)
         OUTPUT INSERTED.Id
         VALUES (@Name, @Username, @Fathername, @Email, @PasswordHash, @Address, 
                 @MobilePhone, @CardNumber, @Note, @BirthDay, @DateOfEmployment, 
-                @DateOfDismissal, @Gender, @UserType, @CreatedDate, @Updatedate, 
+                @DateOfDismissal, @Gender, @UserType, @CreatedDate, @UpdatedDate, 
                 @DeletedDate, @IsDeleted, @CreatedBy, @UpdatedBy, @DeletedBy); SELECT SCOPE_IDENTITY()";
 
         using var conn = OpenConnection();
@@ -40,7 +40,7 @@ public class SqlUserRepository(string connectionString) : BaseSqlRepository(conn
             Gender = (int)user.Gender,
             UserType = (int)user.UserType,
             user.CreatedDate,
-            user.Updatedate,
+            user.UpdatedDate,
             user.DeletedDate,
             user.IsDeleted,
             user.CreatedBy,
@@ -73,7 +73,7 @@ public class SqlUserRepository(string connectionString) : BaseSqlRepository(conn
         return affectedRow > 0;
     }
 
-    public IQueryable<User> GetAll()
+    public async Task<IQueryable<User>> GetAll()
     {
         var sql = "SELECT * FROM Users WHERE IsDeleted=0";
         using var conn = OpenConnection();
@@ -95,32 +95,32 @@ public class SqlUserRepository(string connectionString) : BaseSqlRepository(conn
         return await conn.QueryAsync<User>(sql, new { gender = (int)gender });
     }
 
-    public Task<IEnumerable<User>> GetByNameAsync(string name)
+    public async Task<IEnumerable<User>> GetByNameAsync(string name)
     {
         var sql = "SELECT * FROM Users WHERE Name=@name AND IsDeleted=0";
         using var conn = OpenConnection();
-        return conn.QueryAsync<User>(sql, new { name });
+        return await conn.QueryAsync<User>(sql, new { name });
     }
 
-    public Task<User> GetByUsernameAsync(string username)
+    public async Task<User> GetByUsernameAsync(string username)
     {
         var sql = "SELECT * FROM Users WHERE Username=@username AND IsDeleted=0";
         using var conn = OpenConnection();
-        return conn.QueryFirstOrDefaultAsync<User>(sql, new { username })!;
+        return await conn.QueryFirstOrDefaultAsync<User>(sql, new { username })!;
     }
 
-    public Task<User> GetUserByEmailAsync(string email)
+    public async Task<User> GetUserByEmailAsync(string email)
     {
         var sql = "SELECT * FROM Users WHERE Email=@email AND IsDeleted=0";
         using var conn = OpenConnection();
-        return conn.QueryFirstOrDefaultAsync<User>(sql, new { email })!;
+        return await conn.QueryFirstOrDefaultAsync<User>(sql, new { email })!;
     }
 
-    public Task<User> GetUserByIdAsync(int id)
+    public async Task<User> GetUserByIdAsync(int id)
     {
         var sql = "SELECT * FROM Users WHERE Id=@id AND IsDeleted=0";
         using var conn = OpenConnection();
-        return conn.QueryFirstOrDefaultAsync<User>(sql, new { id })!;
+        return await conn.QueryFirstOrDefaultAsync<User>(sql, new { id })!;
     }
 
     public async Task<bool> UpdateUserAsync(User user)
@@ -169,4 +169,5 @@ public class SqlUserRepository(string connectionString) : BaseSqlRepository(conn
 
         return affectedRows > 0;
     }
+
 }

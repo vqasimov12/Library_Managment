@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\" />
+    <Folder Include="CQRS\Image\Commands\Requests\" />
+    <Folder Include="CQRS\Image\Commands\Responses\" />
+    <Folder Include="CQRS\Image\Handlers\CommandHandlers\" />
+    <Folder Include="CQRS\Image\Handlers\QueryHandlers\" />
+    <Folder Include="CQRS\Image\Queries\Requests\" />
+    <Folder Include="CQRS\Image\Queries\Responses\" />
+    <Folder Include="CQRS\Book\Commands\Requests\" />
+    <Folder Include="CQRS\Book\Commands\Responses\" />
+    <Folder Include="CQRS\Book\Handlers\CommandHandlers\" />
+    <Folder Include="CQRS\Book\Handlers\QueryHandlers\" />
+    <Folder Include="CQRS\Book\Queries\Requests\" />
+    <Folder Include="CQRS\Book\Queries\Responses\" />
   </ItemGroup>
 
   <ItemGroup>

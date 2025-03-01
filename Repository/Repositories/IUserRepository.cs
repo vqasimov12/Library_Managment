@@ -10,7 +10,7 @@ public interface IUserRepository
     Task AddUserAsync(User user);
     Task<bool> UpdateUserAsync(User user);
     Task<bool> DeleteUserAsync(int id, int deletedBy);
-    IQueryable<User> GetAll();
+    Task<IQueryable<User>> GetAll();
     Task<IEnumerable<User>> GetByNameAsync(string name);
     Task<User> GetByUsernameAsync(string username);
     Task<IEnumerable<User>> GetByFathernameAsync(string fathername);
