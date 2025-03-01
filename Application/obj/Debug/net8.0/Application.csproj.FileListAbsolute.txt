@@ -1,0 +1,13 @@
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\bin\Debug\net8.0\Application.dll
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.dll
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\user\OneDrive - Azerbaijan State Oil and Industry University\Desktop\New folder\New folder\ASP-.NET\Web API\LibraryManagment\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
