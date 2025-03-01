@@ -11,8 +11,4 @@ public class BaseEntity
     public int? UpdatedBy { get; set; }
     public int? DeletedBy { get; set; }
 
-    public BaseEntity()
-    {
-        CreatedDate = DateTime.Now;
-    }
 }

@@ -10,7 +10,7 @@ public interface IBookRepository
     Task AddBookAsync(Book book);
     Task UpdateBookAsync(Book book);
     Task<bool> DeleteBookAsync(int id, int deletedBy);
-    IQueryable<Book> GetAll();
+    Task<IQueryable<Book>> GetAll();
     Task<IEnumerable<Book>> GetByAuthorAsync(string author);
     Task<IEnumerable<Book>> GetByLanguagesync(Language language);
     Task<IEnumerable<Book>> GetByUserIdAsync(int id);

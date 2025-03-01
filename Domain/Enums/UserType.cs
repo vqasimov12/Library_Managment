@@ -2,7 +2,7 @@
 
 public enum UserType
 {
-    admin,
+    admin = 1,
     user,
     author,
     editor,

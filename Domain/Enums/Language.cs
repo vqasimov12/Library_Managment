@@ -1,8 +1,8 @@
 ﻿namespace Domain.Enums;
 
-public enum Language
+public enum Language:short
 {
-    English,
+    English=1,
     Spanish,
     French,
     German,

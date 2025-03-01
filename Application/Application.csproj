@@ -13,12 +13,6 @@
     <Folder Include="CQRS\Image\Handlers\QueryHandlers\" />
     <Folder Include="CQRS\Image\Queries\Requests\" />
     <Folder Include="CQRS\Image\Queries\Responses\" />
-    <Folder Include="CQRS\Book\Commands\Requests\" />
-    <Folder Include="CQRS\Book\Commands\Responses\" />
-    <Folder Include="CQRS\Book\Handlers\CommandHandlers\" />
-    <Folder Include="CQRS\Book\Handlers\QueryHandlers\" />
-    <Folder Include="CQRS\Book\Queries\Requests\" />
-    <Folder Include="CQRS\Book\Queries\Responses\" />
   </ItemGroup>
 
   <ItemGroup>

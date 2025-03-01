@@ -23,5 +23,4 @@ public class UpdateUserRequest : IRequest<ResponseModel<UpdateUserResponse>>
     public int CreatedBy { get; set; }
     public Gender Gender { get; set; }
     public UserType UserType { get; set; }
-
 }

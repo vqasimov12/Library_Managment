@@ -1,4 +1,7 @@
-﻿using Application.CQRS.User.Commands.Requests;
+﻿using Application.CQRS.Book.Commands.Requests;
+using Application.CQRS.Book.Commands.Responses;
+using Application.CQRS.Book.Queries.Responses;
+using Application.CQRS.User.Commands.Requests;
 using Application.CQRS.User.Commands.Responses;
 using Application.CQRS.User.Queries.Responses;
 using AutoMapper;
@@ -16,7 +19,13 @@ public class MappingProfile : Profile
         CreateMap<User, GetAllUsersResponse>().ReverseMap();
         CreateMap<User, UpdateUserResponse>().ReverseMap();
         CreateMap<User, UpdateUserRequest>().ReverseMap();
+
+
+        CreateMap<Book, GetAllBooksResponse>().ReverseMap();
+        CreateMap<Book, CreateBookRequest>().ReverseMap();
+        CreateMap<Book, CreateBookResponse>().ReverseMap();
+        CreateMap<Book, UpdateBookRequest>().ReverseMap();
+        CreateMap<Book, UpdateBookResponse>().ReverseMap();
+        CreateMap<Book, GetBookByIdResponse>().ReverseMap();
     }
-
-
 }

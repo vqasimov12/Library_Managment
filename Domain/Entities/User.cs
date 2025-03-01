@@ -14,6 +14,7 @@ public class User : BaseEntity
     public string MobilePhone { get; set; }
     public string CardNumber { get; set; }
     public string Note { get; set; }
+    public int? UserId { get; set; }
     public DateTime BirthDay { get; set; }
     public DateTime DateOfEmployment { get; set; }
     public DateTime DateOfDismissal { get; set; }

@@ -8,7 +8,7 @@ namespace DAL.SqlServer.Infrustructure;
 
 public class SqlBookRepository(AppDbContext context) : BaseSqlRepository, IBookRepository
 {
-    public async Task AddBookAsync(Book book) => context.Books.Add(book);
+    public async Task AddBookAsync(Book book) =>  context.Books.Add(book);
 
     public async Task<bool> DeleteBookAsync(int id, int deletedBy)
     {
@@ -21,7 +21,8 @@ public class SqlBookRepository(AppDbContext context) : BaseSqlRepository, IBookR
         return true;
     }
 
-    public IQueryable<Book> GetAll() => context.Books.Where(z => !z.IsDeleted).OrderByDescending(z => z.CreatedDate);
+    public async Task<IQueryable<Book>> GetAll() =>  
+        context.Books.Where(z => !z.IsDeleted).OrderByDescending(z => z.CreatedDate);
 
     public async Task<Book> GetBookByIdAsync(int id) =>
         await context.Books.FirstOrDefaultAsync(z => z.Id == id && !z.IsDeleted)!;
