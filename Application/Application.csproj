@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\Image\Commands\Requests\" />
     <Folder Include="CQRS\Image\Commands\Responses\" />
-    <Folder Include="CQRS\Image\Handlers\CommandHandlers\" />
     <Folder Include="CQRS\Image\Handlers\QueryHandlers\" />
     <Folder Include="CQRS\Image\Queries\Requests\" />
     <Folder Include="CQRS\Image\Queries\Responses\" />
@@ -21,6 +19,7 @@
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="11.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\application\\cqrs\\book\\handlers\\commandhandlers\\deletebookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|solutionrelative:application\\cqrs\\book\\handlers\\commandhandlers\\deletebookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5588713C-9CE8-449F-90F3-86675DB90D1B}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\librarymanagment\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5588713C-9CE8-449F-90F3-86675DB90D1B}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\application\\cqrs\\book\\handlers\\commandhandlers\\updatebookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|solutionrelative:application\\cqrs\\book\\handlers\\commandhandlers\\updatebookhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\application\\cqrs\\image\\commands\\requests\\uploadimagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|solutionrelative:application\\cqrs\\image\\commands\\requests\\uploadimagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5588713C-9CE8-449F-90F3-86675DB90D1B}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\librarymanagment\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5588713C-9CE8-449F-90F3-86675DB90D1B}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\application\\cqrs\\image\\handlers\\commandhandlers\\uploadimagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|solutionrelative:application\\cqrs\\image\\handlers\\commandhandlers\\uploadimagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29E1C10B-FBCE-4E0B-A095-8A2342FAF801}|Application\\Application.csproj|c:\\users\\user\\onedrive - azerbaijan state oil and industry university\\desktop\\new folder\\new folder\\asp-.net\\web api\\librarymanagment\\application\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateBookHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Book\\Handlers\\CommandHandlers\\UpdateBookHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Book\\Handlers\\CommandHandlers\\UpdateBookHandler.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Book\\Handlers\\CommandHandlers\\UpdateBookHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\Book\\Handlers\\CommandHandlers\\UpdateBookHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T20:03:35.591Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -51,15 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeleteBookHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Book\\Handlers\\CommandHandlers\\DeleteBookHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Book\\Handlers\\CommandHandlers\\DeleteBookHandler.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Book\\Handlers\\CommandHandlers\\DeleteBookHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\Book\\Handlers\\CommandHandlers\\DeleteBookHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBgAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UploadImageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Image\\Handlers\\CommandHandlers\\UploadImageHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Image\\Handlers\\CommandHandlers\\UploadImageHandler.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Image\\Handlers\\CommandHandlers\\UploadImageHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Image\\Handlers\\CommandHandlers\\UploadImageHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T20:04:58.786Z",
+              "WhenOpened": "2025-03-02T06:59:50.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadImageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Image\\Commands\\Requests\\UploadImageRequest.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Image\\Commands\\Requests\\UploadImageRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\Application\\CQRS\\Image\\Commands\\Requests\\UploadImageRequest.cs",
+              "RelativeToolTip": "Application\\CQRS\\Image\\Commands\\Requests\\UploadImageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:55:49.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\LibraryManagment\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\LibraryManagment\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "LibraryManagment\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:54:01.972Z",
               "EditorCaption": ""
             },
             {
@@ -72,21 +85,7 @@
               "RelativeToolTip": "Application\\AutoMapper\\MappingProfile.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T18:15:32.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\LibraryManagment\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "LibraryManagment\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\LibraryManagment\\Controllers\\BookController.cs",
-              "RelativeToolTip": "LibraryManagment\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wCEAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T17:18:20.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T18:15:32.892Z"
             }
           ]
         }

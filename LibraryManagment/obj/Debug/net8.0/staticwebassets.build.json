@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "VzAxxurn+rKPOo9D59F9UCjavGtUpoClGtWmA0o516U=",
+  "Hash": "L7zZoVWb77UotAL7jMFX60DPBsqT033FPoKFd0tcNz4=",
   "Source": "LibraryManagment",
   "BasePath": "_content/LibraryManagment",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LibraryManagment\\wwwroot",
+      "Source": "LibraryManagment",
+      "ContentRoot": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\LibraryManagment\\wwwroot\\",
+      "BasePath": "_content/LibraryManagment",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
