@@ -19,6 +19,9 @@ public class SqlImageRepository(AppDbContext context) : BaseSqlRepository, IImag
         context.Images.Remove(image);
     }
 
+    public async Task<IQueryable<Image>> GetAllImagesAsync() =>
+        context.Images.AsQueryable();
+
     public async Task<Image> GetImageByIdAsync(string id) =>
         await context.Images.FirstOrDefaultAsync(z => z.PhotoId == id)!;
 }

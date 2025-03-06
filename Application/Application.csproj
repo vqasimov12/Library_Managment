@@ -8,9 +8,6 @@
 
   <ItemGroup>
     <Folder Include="CQRS\Image\Commands\Responses\" />
-    <Folder Include="CQRS\Image\Handlers\QueryHandlers\" />
-    <Folder Include="CQRS\Image\Queries\Requests\" />
-    <Folder Include="CQRS\Image\Queries\Responses\" />
   </ItemGroup>
 
   <ItemGroup>

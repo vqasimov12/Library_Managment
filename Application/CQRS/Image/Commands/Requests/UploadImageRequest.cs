@@ -6,5 +6,5 @@ namespace Application.CQRS.Image.Commands.Requests;
 
 public class UploadImageRequest : IRequest<ResponseModel<string>>
 {
-    public string FullPath { get; set; }
+    public string ImagePath { get; set; }
 }

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\OneDrive - Azerbaijan State Oil and Industry University\\Desktop\\New folder\\New folder\\ASP-.NET\\Web API\\LibraryManagment\\LibraryManagment\\wwwroot\\Images\\c3d508ba-db28-4656-bbd3-0245e2fe9c38.txt",
+      "PackagePath": "staticwebassets\\Images\\c3d508ba-db28-4656-bbd3-0245e2fe9c38.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryManagment.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryManagment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LibraryManagment.props",
+      "PackagePath": "build\\LibraryManagment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryManagment.props",
+      "PackagePath": "buildMultiTargeting\\LibraryManagment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LibraryManagment.props",
+      "PackagePath": "buildTransitive\\LibraryManagment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

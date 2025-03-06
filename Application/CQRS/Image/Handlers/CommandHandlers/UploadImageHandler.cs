@@ -13,7 +13,7 @@ public class UploadImageHandler(IUnitOfWork unitOfWork) : IRequestHandler<Upload
 
         var image = new Domain.Entities.Image()
         {
-            ImagePath = request.FullPath,
+            ImagePath = request.ImagePath,
             PhotoId = Guid.NewGuid().ToString()
         };
 
