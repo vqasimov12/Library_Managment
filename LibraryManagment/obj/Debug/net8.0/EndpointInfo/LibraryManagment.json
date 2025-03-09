@@ -223,25 +223,36 @@
         "tags": [
           "Image"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteImageRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteImageRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteImageRequest"
-              }
+        "parameters": [
+          {
+            "name": "ImageId",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Image/download": {
+      "get": {
+        "tags": [
+          "Image"
+        ],
+        "parameters": [
+          {
+            "name": "ImageId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -480,16 +491,6 @@
           },
           "userType": {
             "$ref": "#/components/schemas/UserType"
-          }
-        },
-        "additionalProperties": false
-      },
-      "DeleteImageRequest": {
-        "type": "object",
-        "properties": {
-          "imageId": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

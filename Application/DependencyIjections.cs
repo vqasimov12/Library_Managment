@@ -3,6 +3,7 @@ using Application.PipelineBehaviors;
 using AutoMapper;
 using FluentValidation;
 using MediatR;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -26,7 +27,7 @@ public static class DependencyInjections
 
         services.AddMediatR(Assembly.GetExecutingAssembly());
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationPipelineBehavior<,>));
-
+        services.AddSingleton<FileExtensionContentTypeProvider>();
 
         return services;
     }

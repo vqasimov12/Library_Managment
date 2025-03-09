@@ -68,9 +68,9 @@ public class ImageController : ControllerBase
     public async Task<IActionResult> GetImages([FromQuery] GetAllImagesRequest request) => Ok(await _sender.Send(request));
 
     [HttpDelete]
-    public async Task<IActionResult> Delete([FromQuery] DeleteImageRequest request)
-    {
-        return Ok(await _sender.Send(request));
-    }
+    public async Task<IActionResult> Delete([FromQuery] DeleteImageRequest request) => Ok(await _sender.Send(request));
+
+    [HttpGet("download")]
+    public async Task<FileStreamResult> Download([FromQuery] DownloadImageRequest request) => await _sender.Send(request);
 
 }

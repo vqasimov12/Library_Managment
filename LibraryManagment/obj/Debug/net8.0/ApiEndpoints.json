@@ -114,9 +114,25 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "Application.CQRS.Image.Commands.Requests.DeleteImageRequest",
-        "IsRequired": true
+        "Name": "ImageId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagment.Controllers.ImageController",
+    "Method": "Download",
+    "RelativePath": "api/Image/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageId",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

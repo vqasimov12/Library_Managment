@@ -25,6 +25,7 @@ public sealed class GetAllImagesHandler(IUnitOfWork unitOfWork) : IRequestHandle
             };
 
         var totalCount = images.Count();
+        images = images.Skip((request.Page - 1) * request.Limit).Take(request.Limit);
 
         var list = images.Select(image => new GetImagesResponse
         {
